@@ -90,7 +90,7 @@
 //		}
 //	
 //	return 0;
-//}   //出现了按Ctrl+Z退不出去的bug，怎么办？    似乎是scanf_s本身的问题，查一下函数原型吧
+//}  
 
 
 //#include <stdio.h>
@@ -173,8 +173,7 @@ int main()
 			printf("%d ", x);
 	}
 	return 0;
-}*///我不行了VS先调用函数后写内容就不给过，太逗了
-
+}*/
 //if版
 //#include<stdio.h>
 //int main()
@@ -309,7 +308,7 @@ int main()
 //	for (k = 1; k <= 20; k++)
 //		printf("k=%d\tthe sum is %lld\n", k, sum_fac(k));
 //	return 0;
-//}//为什么用书上写的递归写就过不了呢？
+//}
 
 //#include<stdio.h>
 //double mulx(double x, int n);
@@ -571,7 +570,7 @@ int main()
 //	int j, k;
 //	for (j = k = 0; s[j] != '\0'; j++)
 //		if (s[j] != c)	s[k++] = s[j];
-//	for (j=k; j < 21; j++) s[j]=0;    //为什么把0换成'0',"0"都不行
+//	for (j=k; j < 21; j++) s[j]=0;   
 //}
 
 //#include<stdio.h>
