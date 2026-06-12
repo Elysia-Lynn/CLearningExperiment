@@ -22,7 +22,7 @@
 //	k = 0xa1b2, p = 0x8432;
 //	int newint = p & 0xff00 | k >> 8&0x00ff;
 //	printf("new int = %#x\n\n", newint);
-//	/*printf("%#x", k >> 8); */ //为什么运行出来是0xffffffa1啊？不应该是0xffa1吗？
+//	/*printf("%#x", k >> 8); */ 
 //	return 0;
 //}
 //
@@ -230,7 +230,7 @@ int main()
 //			
 //		}
 //	}
-//}//实验2-1的程序ing，这个的bug都没搞定但是我想做一个能给最后一个！后面出现其他字符/超过5行/有行超过50字的短文报错的程序
+//}
 
 //#include<stdio.h>
 //int main()
